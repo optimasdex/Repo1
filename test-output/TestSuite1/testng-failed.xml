@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [TestSuite1]">
+  <test name="testNGgroup(failed)">
+    <groups>
+      <run>
+        <include name="test"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="SeleniumTest.testNGgroup">
+        <methods>
+          <include name="xmlTestMethod1"/>
+          <include name="xmlTestMethod2"/>
+          <include name="testdepends"/>
+        </methods>
+      </class> <!-- SeleniumTest.testNGgroup -->
+    </classes>
+  </test> <!-- testNGgroup(failed) -->
+</suite> <!-- Failed suite [TestSuite1] -->
